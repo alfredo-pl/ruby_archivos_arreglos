@@ -28,5 +28,4 @@ def notas_mas_alta(array)
 end
 #arreglo con salto de linea
 data = open("notas.data").readlines
-
-print notas_mas_alta(data)
+notas_mas_alta(data)
